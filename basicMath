@@ -1,0 +1,17 @@
+# Program 1
+from math import *
+num1 = float(input("Enter length"))
+num2 = float(input("Enter width"))
+area = num1 * num2
+perimeter = 2 * num1 + 2 * num2
+print("Area = ", area)
+print("Perimeter = ", perimeter)
+
+# Program 2
+num3 = float(input("Enter radius"))
+area = pi * num3 ** 2
+circumference = num3 * 2 * pi
+volume = 4/3 * pi * num3 ** 3
+print("Circumference = ", circumference)
+print("Area = ", area)
+print("Volume = ", volume)
